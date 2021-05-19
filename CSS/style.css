@@ -1,0 +1,122 @@
+body {
+    background-image: url("../Assets/pokemons.jpg");
+    background-size: auto;
+}
+
+main {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    width:60%;
+    height:10%;
+
+}
+.container1 {
+    /*display: flex;*/
+
+}
+
+.container2 {
+    background-color: red;
+    padding: 50px;
+
+}
+#namePokedex {
+    font-family: "Press Start 2P",sans-serif;
+}
+
+section {
+    display:block;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    border-radius: 10%;
+    perspective: 1000px; /* 3D effect */
+    margin: 50px;
+
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    border-radius: 10%;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-image: url("../Assets/backgroundflipcard.png");
+    background-size: cover;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: red;
+    color: white;
+    transform: rotateY(180deg);
+}
+#pokeMove {
+    text-align: left;
+}
+
+.movesContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.moves {
+    font-family: "Press Start 2P",sans-serif;
+    font-size: 10px;
+}
+
+#movesTitle {
+    font-family: "Press Start 2P",sans-serif;
+    font-size: 15px;
+}
+
+#pokeId {
+    font-family: "Press Start 2P",sans-serif;
+    font-size: 15px;
+}
+
+#pokeName {
+    font-family: "Press Start 2P",sans-serif;
+    font-size: 15px;
+}
+#pokeEvo {
+    font-family: "Press Start 2P",sans-serif;
+    font-size: 15px;
+}
+
+#inputSearch{
+    margin: 10px;
+}
+
+#displaySection {
+    display: flex;
+    justify-content: center;
+}
+#searchSection {
+    text-align: center;
+}
