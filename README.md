@@ -1,12 +1,21 @@
 # Pokemon-Challenge-in-PHP-style
 
-PLAN
+##PLAN
 
--Setup REPO and clone it locally
--Create css and php files
--Create vhost and link the root to the created repo
--learn how to display html in php
--learn how to get info from FORMS in php ($_GET)
--do conditions / loops with this info
--Learn how to create conditions in PHP and create them
--Pokédex
+* Setup REPO and files  
+* Create vhost and link the root to the created repo  
+* Learn how to display html in php  
+* Learn how to get info from FORMS in php ($_GET)  
+* Do conditions / loops with this info  
+* Learn how to create conditions in PHP  
+
+
+###TO DO
+
+**PHP**
+
+* Add more specs to the Pokédex
+
+**CSS**
+
+* Create a more advanced look

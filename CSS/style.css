@@ -111,6 +111,13 @@ section {
 
 #inputSearch{
     margin: 10px;
+    border: 3px solid;
+    border-radius: 10px;
+}
+
+#buttonSearch {
+    border: 3px solid;
+    border-radius: 10px;
 }
 
 #displaySection {
@@ -120,3 +127,4 @@ section {
 #searchSection {
     text-align: center;
 }
+
