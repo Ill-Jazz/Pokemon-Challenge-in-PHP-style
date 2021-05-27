@@ -1,6 +1,6 @@
 # Pokemon-Challenge-in-PHP-style
 
-##PLAN
+## PLAN
 
 * Setup REPO and files  
 * Create vhost and link the root to the created repo  
@@ -10,7 +10,7 @@
 * Learn how to create conditions in PHP  
 
 
-###TO DO
+### TO DO
 
 **PHP**
 
